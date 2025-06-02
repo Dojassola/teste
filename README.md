@@ -20,7 +20,7 @@ O projeto conta com funcionalidades como autenticação (login) e gerenciamento 
 
 git clone https://github.com/Dojassola/teste.git
 
-Acesse a pasta do projeto: cd seu-repositorio
+Acesse a pasta do projeto: cd teste
 Instale as dependências: npm install
 Rode o projeto localmente: npm run dev
 
