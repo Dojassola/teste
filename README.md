@@ -38,51 +38,49 @@ Ou rode os testes diretamente no terminal (modo headless):
 
 npx cypress run --spec "cypress/e2e/spec.cy.js"
 
+## 📝 Descrição dos Testes
 
-Nome: Gabriel Pereira
-Descrição dos Testes
-Os testes foram realizados utilizando a ferramenta Cypress, visando garantir a funcionalidade da página de Login e da página de Tarefas do sistema. Foram aplicados testes de interface, fluxo de autenticação e operações básicas no gerenciamento de tarefas.
-Suítes de Teste
-Suite
-Quantidade de Testes
-Descrição Resumida
-Login
-4
-Testes relacionados ao fluxo de login e redirecionamento
-Página de Tarefas
-3
-Testes relacionados ao gerenciamento de tarefas e validações
+Os testes foram realizados utilizando a ferramenta **Cypress**, visando garantir a funcionalidade da **página de Login** e da **página de Tarefas** do sistema. Foram aplicados testes de:
 
-Testes individuais
-Nº
-Cenário
-Resultado
-Observações
-1
-Verificar exibição dos elementos do formulário de Login
-✅ Passou
-Todos os elementos visíveis
-2
-Login com usuário e senha inválidos, deve exibir mensagem de erro
-✅ Passou
-Mensagem de erro exibida corretamente
-3
-Login com usuário e senha válidos
-✅ Passou
-Login realizado com sucesso
-4
-Redirecionamento para a página inicial após login válido
-✅ Passou
-Redirecionamento correto
-5
-Verificar exibição dos elementos na página de tarefas
-✅ Passou
-Todos os elementos visíveis
-6
-Criar uma nova tarefa com sucesso
-✅ Passou
-Tarefa criada e exibida na lista
-7
-Validação dos campos do formulário de tarefas (campos obrigatórios não preenchidos)
-✅ Passou
-Validação funcionando corretamente
+- Validação de interface;
+- Fluxo de autenticação (login);
+- Operações básicas no gerenciamento de tarefas;
+- Validação de formulários.
+
+---
+
+## 🧪 Suítes de Teste
+
+| Suite            | Quantidade de Testes | Descrição Resumida                                                     |
+|------------------|-----------------------|-------------------------------------------------------------------------|
+| **Login**        | 4                     | Testes relacionados ao fluxo de login e redirecionamento               |
+| **Página de Tarefas** | 3                 | Testes relacionados ao gerenciamento de tarefas e validações           |
+
+---
+
+## 🔍 Testes Individuais
+
+| Nº | Cenário                                                                                      | Resultado   | Observações                                       |
+|----|----------------------------------------------------------------------------------------------|-------------|---------------------------------------------------|
+| 1  | Verificar exibição dos elementos do formulário de Login                                      | ✅ Passou   | Todos os elementos visíveis                      |
+| 2  | Login com usuário e senha inválidos, deve exibir mensagem de erro                            | ✅ Passou   | Mensagem de erro exibida corretamente            |
+| 3  | Login com usuário e senha válidos                                                             | ✅ Passou   | Login realizado com sucesso                      |
+| 4  | Redirecionamento para a página inicial após login válido                                     | ✅ Passou   | Redirecionamento correto                         |
+| 5  | Verificar exibição dos elementos na página de tarefas                                        | ✅ Passou   | Todos os elementos visíveis                      |
+| 6  | Criar uma nova tarefa com sucesso                                                             | ✅ Passou   | Tarefa criada e exibida na lista                 |
+| 7  | Validação dos campos do formulário de tarefas (campos obrigatórios não preenchidos)          | ✅ Passou   | Validação funcionando corretamente               |
+
+---
+
+## 🚀 Ferramentas Utilizadas
+
+- ✅ React + Vite (Frontend)
+- ✅ Cypress (Testes End-to-End)
+
+---
+
+## 📜 Observação
+
+Todos os testes foram executados localmente com sucesso, e todas as funcionalidades testadas estão funcionando corretamente conforme esperado.
+
+---
